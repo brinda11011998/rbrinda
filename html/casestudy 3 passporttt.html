@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1 align="center"><font color="Green">PASSPORT REGISTRATION FORM</font></h1>
+<style >
+	body{
+		background-image:url("psprt2.jpg");
+	}
+
+	table,th,td{
+		
+		border-collapse: collapse;
+		padding: 10px;
+	}
+
+
+</style>
+
+</head>
+
+<body >
+<img.src="logo.jpg" alt="logo" "width=4
+
+	<form action="submit.html" method="post">
+		<table   align="center" >
+			<tr>
+<th> Name</th>
+<td><INPUT type="text" name="first name" required></td>
+</tr>
+<tr> 
+	<th>Password</th>
+	<td> <input type="password" name="pwd"  minlength="8"  required></td>
+</tr>
+<th>Address</th>
+<td><textarea rows="8" column="20" required></textarea></td>
+</tr>
+
+<tr>
+<th>Qualification</th>
+<td><select required>
+	<option value="select">select</option>
+  <option value="india">B.Tech</option>
+  <option value="china">BE</option>
+  <option value="south africa">Bsc</option>
+  <option value="america">others</option>
+</select></td>
+</tr>
+<tr>
+<th>Email</th>
+<td>Primary Email<INPUT type="Email" name="EMAIL"></td>
+</tr>
+<tr>
+	<tr>
+<th></th>
+<td>Secondary Email<INPUT type="Email" name="EMAIL"></td>
+</tr>
+<tr>
+<th>contact number</th>
+<td>Mobile Number<input type="number" name="phone" place holder="mobile number" required></td>
+</tr>
+<tr>
+<th></th>
+<td>Landline Number<input type="number" name="phone" place holder="mobile number" required></td>
+</tr>
+<tr>
+<th>Date of Birth</th>
+<td> <input type="date" name="bday">
+</tr>
+<tr>
+<th>Apply Type</th>
+<td><select required>
+	<option value="select">select</option>
+  <option value="india">B.Tech</option>
+  <option value="china">BE</option>
+  <option value="south africa">Bsc</option>
+  <option value="america">others</option>
+</select></td>
+</tr>
+<th>Gender</th>
+<td><input type="radio" name="gender" value="male" checked> Male
+  <input type="radio" name="gender" value="female"> Female</td>
+</tr>
+<tr>
+<th>Hint Question</th>
+<td><select required>
+	<option value="select">select</option>
+  <option value="india">which is ur favourite movie</option>
+  <option value="china">what is your school name</option>
+  <option value="south africa">what is ur date of birth</option>
+  <option value="america">what is your mother name</option>
+</select></td>
+</tr>
+<tr>
+<th> Hint Answer</th>
+<td><INPUT type="text" name=" name" required></td>
+</tr>
+
+</form>
+</table><br>
+<center><input type="submit" value="register" onclick="myFunction()">
+<input type="reset" value="reset"></center>
+<script>
+function myFunction()
+{
+alert("this form is submitted successfully");
+}
+</script>
+
+
+</body>
+</html>
